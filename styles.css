@@ -17,16 +17,23 @@
     display: inline-block;
     width: 60%;
     padding-left: 136px;
-    margin-top : 25%;
+    margin-top : 20%;
 }
 
 .container-right{
     display: inline-block;
     background-color: rgba(93, 93, 134, 0.16);
-    
+    height: 100vh;
+    width: 40%;
+    position: absolute;
     }
 
-
+img{
+    position: relative;
+    top: 25%;
+    right: 130px;
+    
+}
     
     h1{
         font-size: 70px;
@@ -56,11 +63,11 @@ button{
 }
 
 button:hover{
-    opacity: .8;
+    opacity: 0.8;
 }
 
 button:active{
-    opacity: .5;
+    opacity: 0.5;
     }
 
     header{
